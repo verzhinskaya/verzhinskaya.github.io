@@ -1,1 +1,8 @@
 /* your styles go here */
+
+.form-control{
+  margin: 5px;
+}
+#comments{
+  width: 300px;
+}
