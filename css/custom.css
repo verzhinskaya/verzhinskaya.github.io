@@ -17,7 +17,16 @@
   margin-bottom: 100px;
   text-align: center;
 }
-
+@media (min-width: 800px) {
+  .main .title-img img {
+    width: 800px;
+  }
+}
+@media (max-width: 799px) {
+  .main .title-img img {
+    width: 90%;
+  }
+}
 .main .header {
   position: relative;
   top: 20px;
@@ -41,6 +50,9 @@
     position: fixed;
     /*bottom: 20px;*/
   }
+}
+.main .copyright {
+	text-align: center;
 }
 .social-buttons{
   position: relative;
