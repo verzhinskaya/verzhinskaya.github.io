@@ -532,10 +532,6 @@ body {
   color: #555555;
   background-color: #ffffff;
 }
-a {
-  color: #4fbfa8;
-  text-decoration: none;
-}
 a:hover,
 a:focus {
   color: #348e7b;
