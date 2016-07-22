@@ -1,0 +1,59 @@
+# Site settings
+title: Агентство событий Екатерины Вержинской
+description: "Доверьтесь профессионалам и получайте удовольствие от организации Вашего мероприятия!"
+baseurl: "/main-site" # the subpath of your site, e.g. /blog
+url: "http://verzhinskaya.ru" # the name of your domain
+# logo_url: svg/min/logo.svg
+# logo_url: img/logo.png
+
+# Verzhinskaya
+verzhinskaya:
+    main_img: verzhinskaya-header.jpg
+    main_title: Агентство событий Екатерины Вержинской
+    main_description: Доверьтесь профессионалам и получайте удовольствие от организации Вашего мероприятия!
+
+# Contact form
+api_token: # Enter API token here
+
+# Testimonials
+testimonials:
+    testimonials_img: parallax2.jpg
+
+# Map
+map:
+    zoom: 17
+    address: Memorialnyy park, Ufa, Russia
+    address_details: svg/min/logo.svg
+
+# Social settings
+vkontakte: http://vk.com/e.verzhinskaya
+facebook: https://www.facebook.com/e.verzhinskaya
+twitter: 
+instagram: https://www.instagram.com/e.verzhinskaya/
+#youtube: http://youtube.com
+#skype: skype:verzhinskaya
+feed: no
+
+# Footer
+copyright: © 2016 Агентство событий Екатерины Вержинской
+
+# Build settings
+markdown: kramdown
+
+exclude: [
+    package.json,
+    Gruntfile.js,
+    node_modules,
+    .sass-cache,
+    Gemfile,
+    Gemfile.lock,
+    .gitignore
+]
+
+# Theme Settings
+analytics:
+google_verification:
+
+sass:
+    sass_dir: _scss
+    style: compressed

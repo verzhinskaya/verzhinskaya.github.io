@@ -1,0 +1,87 @@
+/* USER
+-------------------------------------------------*/
+
+.morethan {
+  font-size: 3rem;
+  color: $white;
+}
+
+.videoclip {
+  position: relative;
+  width: 90%;
+  padding-top: 25px;
+  padding-bottom: 56.25%;
+  height: 0;
+}
+
+.videoclip iframe {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  top: 0;
+  left: 0;
+}
+
+/*@media (min-width: 450px) {
+  .videoclip iframe {
+    width: 200px !important;
+	height: auto !important;
+  }
+}
+@media (min-width: 700px) {
+  .videoclip iframe {
+    width: 320px !important;
+	height: auto !important;
+  }
+}
+@media (min-width: 900px) {
+  .videoclip iframe {
+    width: 400px !important;
+	height: auto !important;
+  }
+}
+@media (max-width: 449px) {
+  .videoclip iframe {
+    width: 80% !important;
+	height: auto !important;
+  }
+}*/
+
+.phones {
+  padding-top: $space/2;
+  padding-left: $space/2;
+  color: $colorPrimary;
+  @extend %align-left;
+  font-size: 1rem;
+  vertical-align: middle;
+  display: table-cell;
+}
+
+.phones .phone {
+	display: block;
+}
+
+.phone-icon {
+	padding-top: $space;
+    text-align: center;
+    .icon {
+        color: $colorPrimary;
+        font-size: 2rem;
+    }
+	display: table-cell;
+}
+
+#owl-demo .item img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.phone-left {
+	display: inline;
+	padding-top: 5px;
+}
+
+.phone-body {
+	display: inline;
+}
