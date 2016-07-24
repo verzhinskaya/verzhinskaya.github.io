@@ -43,12 +43,14 @@
         color: $white;
     }
 	.highlight-box {
-		@extend %align-center;
-		background: $colorPrimary;
-		display: block;
-		padding: $space $space;
-		width: 50%;
-		font-size: 5rem;
-		align: center;
+		width: 100%;
+		padding: $space;
+		margin-bottom: $space;
+		background: url('../img/pattern.png');
+		text-align: center;
+		border: 0px solid #dedede;
+		border-radius: 5px;
+		opacity: 0.9;
+		filter: alpha(opacity=90); /* For IE8 and earlier */
 	}
 }

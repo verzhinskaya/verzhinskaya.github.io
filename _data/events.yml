@@ -4,7 +4,8 @@
   title: Свадьба
   description: Свадьбы в стиле рустик, шебби-шик, эко-стайл, Прованс, Тиффани, Гэтсби, путешествия, морская свадьба
   img: 1.jpg
-  link: svadba.html
+  link: http://svadba.verzhinskaya.ru/
+  external: yes
 
 - icon: fa-birthday-cake
   title: День рождения

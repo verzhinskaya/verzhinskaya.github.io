@@ -71,13 +71,11 @@ layout: default
     <div class="container-fluid">
         <h2 class="section-title">О нас</h2>
 		
-				<div class="videoclip"><iframe src="{{ site.baseurl }}/video/videoclip.mp4" frameborder="0"></iframe></div>
+				<div class="videoclip"><iframe src="http://vk.com/video_ext.php?oid=154563095&id=171435400&hash=0ad09e597ca12266&hd=2" frameborder="0"></iframe></div>
 
                 <p class="about-text-1">В Вашей жизни бывает такое, что Вы хотите организовать яркое событие, но не знаете, как это сделать и с чего начать?</p>
 				<p class="about-text-2">У нас тоже такое было много лет назад. Шли годы — мы росли, развивались, набирались опыта в организации мероприятий разного масштаба и уровня.</p>
 				<p class="about-text-3">На данный момент мы являемся командой профессионалов, готовых помочь Вам сделать любое предстоящее событие ярким, интересным и запоминающимся.</p>
-
-                <!--<div class="videoclip"><iframe src="http://vk.com/video_ext.php?oid=154563095&id=171435400&hash=0ad09e597ca12266&hd=2" frameborder="0"></iframe></div>-->
 				
         </div>
     </div>
@@ -85,7 +83,7 @@ layout: default
 <!-- End About -->
 
 <!-- Start Events -->
-<div id="events" class="events">
+<div id="events" class="events" style="background-image: url('{{ site.baseurl }}/img/pattern.png');">
     <div class="container-fluid">
         <h2 class="section-title">Мероприятия</h2>
 
@@ -95,8 +93,11 @@ layout: default
                     <div class="icon-box">
                         <!-- <svg class="icon {{ event.icon }}"><use xlink:href="#{{ event.icon }}"></use></svg> -->
                         <!--<i class="icon fa {{ event.icon }}" aria-hidden="true"></i>-->
-						{% if event.link %}<a href="{{ site.baseurl }}/{{ event.link }}">{% endif %}
-						<img border="0" src="img/events/{{ event.img }}" alt="{{ event.title }}">
+						{% if event.link %}
+						{% if event.external %}<a href="{{ event.link }}">
+						{% else %}<a href="{{ site.baseurl }}/{{ event.link }}">{% endif %}
+						{% endif %}
+						<img border="0" src="img/events/{{ event.img }}" alt="{{ event.title }}" class="event-img">
 						{% if event.link %}</a>{% endif %}
                         <h4>{{ event.title }}</h4>
                         <p>{{ event.description }}</p>
@@ -118,7 +119,7 @@ layout: default
 				<div class="row">
 				{% for highlight in site.data.highlights %}
 					<div class="col-sm-6 col-md-4">
-						<div class="icon-box">
+						<div class="highlight-box">
 							<h4>{{ highlight.title }}</h4>
 						</div>
 					</div>
@@ -212,7 +213,7 @@ layout: default
 		{% for partner in site.data.partners %}
 			<div class="col-sm-6 col-md-4">
 				<div class="icon-box">
-					<a href="{{ partner.link }}" target="_blank"><img border="0" src="img/partners/{{ partner.img }}" alt="{{ partner.title }}"></a>
+					<a href="{{ partner.link }}" target="_blank"><img border="0" src="img/partners/{{ partner.img }}" alt="{{ partner.title }}" class="partner-img"></a>
 					<!--<h4>{{ partner.title }}</h4>-->
 				</div>
 			</div>
