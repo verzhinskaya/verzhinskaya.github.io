@@ -1,0 +1,47 @@
+/* DELAS
+-------------------------------------------------*/
+.deals {
+    @extend %space;
+    background: $colorBg;
+    .row {
+        @include breakpoint(small) {
+            display: flex;
+            flex-wrap: wrap;
+        }
+    }
+    [class^="col-"] {
+        @include breakpoint(small) {
+            display: flex; 
+        }
+    }
+	.deal-img {
+		width: 640px;
+		align: center;
+		border-radius: 20px;
+		opacity: 0.8;
+		filter: alpha(opacity=80); /* For IE8 and earlier */
+	}
+	.deal-img:hover {
+		opacity: 1.0;
+		filter: alpha(opacity=100); /* For IE8 and earlier */
+	}
+	.deal-element {
+		width: 700px;
+		height: 466px;
+		background: url("../img/events/8.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		align: center;
+		border-radius: 20px;
+		opacity: 0.8;
+		filter: alpha(opacity=80); /* For IE8 and earlier */
+		color: $colorPrimary;
+		font-size: 2em;
+		text-align: center;
+		padding: 300px 0px;
+	}
+	.deal-element:hover {
+		opacity: 1.0;
+		filter: alpha(opacity=100); /* For IE8 and earlier */
+	}
+}
