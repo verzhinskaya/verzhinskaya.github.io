@@ -1,7 +1,7 @@
 # Site settings
 title: Агентство событий Екатерины Вержинской
 description: "Доверьтесь профессионалам и получайте удовольствие от организации Вашего мероприятия!"
-baseurl: "/main-site" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://verzhinskaya.ru" # the name of your domain
 # logo_url: svg/min/logo.svg
 # logo_url: img/logo.png
