@@ -6,46 +6,7 @@
   color: $white;
 }
 
-.videoclip {
-  position: relative;
-  width: 90%;
-  padding-top: 25px;
-  padding-bottom: 56.25%;
-  height: 0;
-}
 
-.videoclip iframe {
-  position: absolute;
-  width: 100%;
-  height: auto;
-  top: 0;
-  left: 0;
-}
-
-/*@media (min-width: 450px) {
-  .videoclip iframe {
-    width: 200px !important;
-	height: auto !important;
-  }
-}
-@media (min-width: 700px) {
-  .videoclip iframe {
-    width: 320px !important;
-	height: auto !important;
-  }
-}
-@media (min-width: 900px) {
-  .videoclip iframe {
-    width: 400px !important;
-	height: auto !important;
-  }
-}
-@media (max-width: 449px) {
-  .videoclip iframe {
-    width: 80% !important;
-	height: auto !important;
-  }
-}*/
 
 .phones {
   padding-top: $space/2;

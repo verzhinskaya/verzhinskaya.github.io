@@ -7,7 +7,15 @@
     background: $white;
     text-align: center;
 	border-radius: 5px;
+}
+
+.icon-box:hover {
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.09);
+}
+
+.icon-box:hover .event-img {
+	opacity: 1.0;
+	filter: alpha(opacity=100); /* For IE8 and earlier */
 }
 
 .boxed-icon {

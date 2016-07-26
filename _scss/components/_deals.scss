@@ -14,8 +14,17 @@
             display: flex; 
         }
     }
+	
+	.deal {
+		margin: auto;
+		width: 100%;
+		align: center;
+		text-align: center;
+	}
+	
 	.deal-img {
 		width: 640px;
+		height: auto;
 		align: center;
 		border-radius: 20px;
 		opacity: 0.8;

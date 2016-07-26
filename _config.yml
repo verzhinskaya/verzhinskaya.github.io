@@ -1,31 +1,10 @@
-# Site settings
+# Основные настройки
 title: Агентство событий Екатерины Вержинской
 description: "Доверьтесь профессионалам и получайте удовольствие от организации Вашего мероприятия!"
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/main-site" # the subpath of your site, e.g. /blog
 url: "http://verzhinskaya.ru" # the name of your domain
-# logo_url: svg/min/logo.svg
-# logo_url: img/logo.png
 
-# Verzhinskaya
-verzhinskaya:
-    main_img: verzhinskaya-header.jpg
-    main_title: Агентство событий Екатерины Вержинской
-    main_description: Доверьтесь профессионалам и получайте удовольствие от организации Вашего мероприятия!
-
-# Contact form
-api_token: # Enter API token here
-
-# Testimonials
-testimonials:
-    testimonials_img: parallax2.jpg
-
-# Map
-map:
-    zoom: 17
-    address: Memorialnyy park, Ufa, Russia
-    address_details: svg/min/logo.svg
-
-# Social settings
+# Социальные сети
 vkontakte: http://vk.com/e.verzhinskaya
 facebook: https://www.facebook.com/e.verzhinskaya
 twitter: 
@@ -34,9 +13,13 @@ instagram: https://www.instagram.com/e.verzhinskaya/
 #skype: skype:verzhinskaya
 feed: no
 
-# Footer
+# Копирайт
 copyright: © 2016 Агентство событий Екатерины Вержинской
 
+
+
+
+# Остальные настройки
 # Build settings
 markdown: kramdown
 
