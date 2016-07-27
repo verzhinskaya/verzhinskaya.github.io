@@ -41,4 +41,15 @@
             @extend %align-right;
         }
     }
+	.img-icon {
+		width: 4rem;
+		height: auto;
+		margin-bottom: 20px;
+	}
+	
+	.morethan {
+	  font-size: 1.5rem;
+	  color: $white;
+	  line-height: 130%;
+	}
 }

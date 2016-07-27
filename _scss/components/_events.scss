@@ -3,6 +3,7 @@
 .events {
     @extend %space;
     background: $colorBg;
+	background-attachment: fixed;
     .row {
         @include breakpoint(small) {
             display: flex;

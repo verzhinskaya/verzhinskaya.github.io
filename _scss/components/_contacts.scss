@@ -6,6 +6,7 @@
     overflow: hidden;
     color: $white;
     background: lighten($colorPrimary, 4%);
+	background-attachment: fixed;
     h2, h4 {
         color: $white;
     }
