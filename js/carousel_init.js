@@ -7,7 +7,7 @@ $(document).ready(function() {
       paginationSpeed : 400,
 	  autoPlay : 7000,
 	  pagination : false,
-      singleItem:true
+      singleItem: true
  
       // "singleItem:true" is a shortcut for:
       // items : 1, 

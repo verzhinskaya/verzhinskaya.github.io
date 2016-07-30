@@ -14,17 +14,17 @@ layout: default
 
 <!-- Start 3 columns -->
 <div class="three-shade-col">
-    <div class="col-sm-4">
+    <div class="col-sm-4" style="background-image: url('{{ site.baseurl }}/img/patterns/60-lines.png');">
         <!--<svg class="icon icon-clock-o"><use xlink:href="#icon-clock-o"></use></svg>-->
 		<img src="img/icons/wise.png" class="img-icon" alt="Более 10 лет опыта работы">
         <div class="morethan">Более <strong>10</strong>&nbsp;лет<br>опыта работы</div>
     </div>
-    <div class="col-sm-4">
+    <div class="col-sm-4" style="background-image: url('{{ site.baseurl }}/img/patterns/60-lines.png');">
         <!--<svg class="icon icon-trophy"><use xlink:href="#icon-trophy"></use></svg>-->
 		<img src="img/icons/like.png" class="img-icon" alt="Более 100 проведённых мероприятий">
 		<div class="morethan">Более <strong>100</strong><br>проведённых<br>мероприятий</div>
     </div>
-    <div class="col-sm-4">
+    <div class="col-sm-4" style="background-image: url('{{ site.baseurl }}/img/patterns/60-lines.png');">
         <!--<svg class="icon icon-group"><use xlink:href="#icon-group"></use></svg>-->
 		<img src="img/icons/heart-smiley.png" class="img-icon" alt="Более 1000 благодарных клиентов">
 		<div class="morethan">Более <strong>1000<strong><br>благодарных<br>клиентов</div>
@@ -36,6 +36,8 @@ layout: default
 <div id="about" class="about">
     <div class="container-fluid">
         <h2 class="section-title">О нас</h2>
+		
+		<div class="divider" style=""></div>
 		
 		<div class="videoclip"><iframe src="http://vk.com/video_ext.php?oid=154563095&id=171435400&hash=0ad09e597ca12266&hd=2" frameborder="0"></iframe></div>
 
@@ -51,6 +53,8 @@ layout: default
     <div class="container-fluid">
         <h2 class="section-title">Мероприятия</h2>
 
+		<div class="divider" style=""></div>
+		
         <div class="row">
             {% for event in site.data.events %}
                 <div class="col-sm-6 col-md-4">
@@ -80,6 +84,8 @@ layout: default
 		<div class="container-fluid">
 			<h2 class="section-title">Семь ключевых принципов нашей работы</h2>
 			
+			<div class="divider-inverted" style=""></div>
+			
 				<div class="row">
 				{% for highlight in site.data.highlights %}
 					<div class="col-sm-12 col-md-6">
@@ -95,8 +101,11 @@ layout: default
 <!-- End Highlights -->
 
 <!-- Start Our team -->
-<div id="team" class="team">
+<div id="team" class="team" style="background-image: url('{{ site.baseurl }}/img/patterns/60-lines.png');">
     <h2 class="section-title">Наша команда</h2>
+	
+	<div class="divider-inverted" style=""></div>
+	
     <div id="team-carousel">
     {% for member in site.data.team %}
         <div class="expandable-box">
@@ -141,9 +150,11 @@ layout: default
 <!-- End Testimonials -->
 
 <!-- Start Deals -->
-<div id="deals" class="deals">
+<div id="deals" class="deals" style="background-image: url('{{ site.baseurl }}/img/patterns/60-lines.png');">
 	<div class="container-fluid">
 		<h2 class="section-title">Акции и предложения</h2>
+		
+		<div class="divider-inverted" style=""></div>
 		
 		<div class="deal"><a href="http://svadba-krym.verzhinskaya.ru/"><img src="img/deals/1.jpg" alt="Оригинальная свадьба в Крыму от 33 000 рублей" class="deal-img" border="0"></a></div>
 	</div>
@@ -154,6 +165,8 @@ layout: default
 <div id="partners" class="partners" style="background-image: url('{{ site.baseurl }}/img/patterns/symphony.png');">
 	<div class="container-fluid">
 		<h2 class="section-title">Партнёры</h2>
+		
+		<div class="divider" style=""></div>
 		
 		<div class="row">
 			{% for partner in site.data.partners %}
@@ -172,6 +185,8 @@ layout: default
 <!-- Start Contacts -->
 <div id="contacts" class="contacts">
 	<h2 class="section-title">Связаться с нами</h2>
+	
+	<div class="divider-inverted" style=""></div>
 	
 	<form class="form-inline" action="https://getsimpleform.com/messages?form_api_token=5e056e98701d50e637b4c65e57ae4fd7" method="post">
 		<div class="form-group">

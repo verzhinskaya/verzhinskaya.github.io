@@ -1,10 +1,5 @@
 /* USER
 -------------------------------------------------*/
-
-
-
-
-
 .phones {
   padding-top: $space/2;
   padding-left: $space/2;
@@ -33,6 +28,7 @@
     display: block;
     width: 100%;
     height: auto;
+	align: center;
 }
 
 .phone-left {
@@ -42,4 +38,20 @@
 
 .phone-body {
 	display: inline;
+}
+
+.divider {
+	margin:auto;
+	align: center;
+	width: 70px;
+	border-bottom: 7px solid $colorPrimary;
+	margin-bottom: $space*5;
+}
+
+.divider-inverted {
+	margin:auto;
+	align: center;
+	width: 70px;
+	border-bottom: 7px solid $white;
+	margin-bottom: $space*5;
 }
