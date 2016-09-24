@@ -15,19 +15,16 @@ layout: default
 <!-- Start 3 columns -->
 <div class="three-shade-col">
     <div class="col-sm-4" style="background-image: url('{{ site.baseurl }}/img/patterns/60-lines.png');">
-        <!--<svg class="icon icon-clock-o"><use xlink:href="#icon-clock-o"></use></svg>-->
-		<img src="img/icons/wise.png" class="img-icon" alt="Более 10 лет опыта работы">
-        <div class="morethan">Более <strong>10</strong>&nbsp;лет<br>опыта работы</div>
+		<img src="img/icons/{{ site.three-col1-img }}" class="img-icon" alt="">
+        <div class="morethan">{{ site.three-col1-txt }}</div>
     </div>
     <div class="col-sm-4" style="background-image: url('{{ site.baseurl }}/img/patterns/60-lines.png');">
-        <!--<svg class="icon icon-trophy"><use xlink:href="#icon-trophy"></use></svg>-->
-		<img src="img/icons/like.png" class="img-icon" alt="Более 100 проведённых мероприятий">
-		<div class="morethan">Более <strong>100</strong><br>мероприятий в&nbsp;год</div>
+		<img src="img/icons/{{ site.three-col2-img }}" class="img-icon" alt="">
+		<div class="morethan">{{ site.three-col2-txt }}</div>
     </div>
     <div class="col-sm-4" style="background-image: url('{{ site.baseurl }}/img/patterns/60-lines.png');">
-        <!--<svg class="icon icon-group"><use xlink:href="#icon-group"></use></svg>-->
-		<img src="img/icons/heart-smiley.png" class="img-icon" alt="Более 1000 благодарных клиентов">
-		<div class="morethan">Более <strong>1000<strong><br>благодарных<br>клиентов</div>
+		<img src="img/icons/{{ site.three-col3-img }}" class="img-icon" alt="">
+		<div class="morethan">{{ site.three-col3-txt }}</div>
     </div>
 </div>
 <!-- End 3 columns -->
@@ -39,11 +36,9 @@ layout: default
 		
 		<div class="divider" style=""></div>
 		
-		<div class="videoclip"><iframe src="http://vk.com/video_ext.php?oid=154563095&id=171435400&hash=0ad09e597ca12266&hd=2" frameborder="0"></iframe></div>
+		<div class="videoclip"><iframe src="{{ site.about-video }}" frameborder="0"></iframe></div>
 
-		<p class="about-text-1">В Вашей жизни бывает такое, что Вы хотите организовать яркое событие, но не знаете, как это сделать и с чего начать?</p>
-		<p class="about-text-2">У нас тоже такое было много лет назад. Шли годы — мы росли, развивались, набирались опыта в организации мероприятий разного масштаба и уровня.</p>
-		<p class="about-text-3">На данный момент мы являемся командой профессионалов, готовых помочь Вам сделать любое предстоящее событие ярким, интересным и запоминающимся.</p>
+		{{ site.about-text }}
     </div>
 </div>
 <!-- End About -->
