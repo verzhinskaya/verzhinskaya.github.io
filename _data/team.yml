@@ -13,12 +13,17 @@
   email: 
   phone: 
   
-- name: Александр
+- name: Александр 
   image: alexandre2.jpg
   email: 
   phone: 
   
 - name: Сергей
   image: сергей3.jpg
+  email: 
+  phone: 
+
+- name: Арина
+  image: Арина.jpg
   email: 
   phone: 
