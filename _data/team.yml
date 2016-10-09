@@ -2,12 +2,7 @@
   image: ekaterina.jpg
   email: verzhinskaya@mail.ru
   phone: 0079677410051
-  
-- name: Инна Менеджер Крым
-  image: Инна.jpg
-  email: inna_banera@mail.ru
-  phone:79789675314
-  
+   
 - name: Ольга ведущая Крым
   image: olga.jpg
   email: 
@@ -17,6 +12,11 @@
   image: alexandre2.jpg
   email: 
   phone: 89782157105
+  
+  - name: Инна Менеджер Крым
+  image: Инна1.jpg
+  email: 
+  phone: 89787683702
   
 - name: Сергей ведущий Уфа
   image: сергей3.jpg
@@ -34,7 +34,7 @@
   phone: 89677410051
   
   - name: Александр вокалист Уфа
-  image: alexandre1.jpg
+  image: Александр.jpg
   email: 
   phone: 89677410051
 
