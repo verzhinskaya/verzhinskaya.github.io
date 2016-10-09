@@ -1,19 +1,19 @@
 - name: Екатерина ведущая,организатор,сценарист
   image: ekaterina.jpg
   email: verzhinskaya@mail.ru
-  phone:89677410051
+  phone: 79677410051
    
 - name: Александр ведущий Крым
   image: АлександрК.jpg
   email: verzhinskaya@mail.ru
-  phone: 89782157105
+  phone: 79782157105
    
  - name: Ольга ведущая Крым
-  image: Ольга.jpg
+  image: Оля.jpg
   email: verzhinskaya@mail.ru
-  phone: 89782157105
+  phone: 79782157105
 
 - name: Инна менеджер Крым
   image: Инна.jpg
   email: verzhinskaya@mail.ru
-  phone: 89787683702
+  phone: 79787683702
