@@ -1,39 +1,39 @@
-- name: Екатерина ведущая,организатор,сценарист
+- name: Екатерина ведущая, организатор, сценарист
   image: ekaterina.jpg
   email: verzhinskaya@mail.ru
   phone: 79677410051
    
 - name: Александр ведущий Крым
-  image: АлександрК.jpg
+  image: AlexandrK.jpg
   email: verzhinskaya@mail.ru
   phone: 79782157105
    
- - name: Инна менеджер Крым
-  image: Инна.jpg
+- name: Инна менеджер Крым
+  image: Inna.jpg
   email: verzhinskaya@mail.ru
   phone: 79789675314
 
 - name: Ольга ведущая Крым
-  image: Оля.jpg
+  image: Olya.jpg
   email: verzhinskaya@mail.ru
   phone: 79782157105
   
-  - name: Сергей ведущий Уфа
-  image: Сергей.jpg
+- name: Сергей ведущий Уфа
+  image: Sergey.jpg
   email: verzhinskaya@mail.ru
   phone: 79677410051
 
- - name: Арина вокалистка,ведущая Уфа
-  image: Арина.jpg
+- name: Арина вокалистка, ведущая Уфа
+  image: Arina.jpg
   email: verzhinskaya@mail.ru
   phone: 79677410051
   
-   - name: Денис ведущий Уфа
-  image: Денис.jpg
+- name: Денис ведущий Уфа
+  image: Denis.jpg
   email: verzhinskaya@mail.ru
   phone: 79677410051
   
-   - name: Адександр вокалист Уфа
-  image: Сашок.jpg
+- name: Адександр вокалист Уфа
+  image: Sashok.jpg
   email: verzhinskaya@mail.ru
   phone: 79677410051
