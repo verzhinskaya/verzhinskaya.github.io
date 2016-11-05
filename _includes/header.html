@@ -30,7 +30,7 @@
 				<li><a class="scroll" href="#highlights">Принципы работы</a></li>
                 <li><a class="scroll" href="#team">Команда</a></li>
                 <li><a class="scroll" href="#testimonials">Отзывы</a></li>
-				<li><a class="scroll" href="#deals">Акции</a></li>
+				{% if site.deal-name != '' %}<li><a class="scroll" href="#deals">Акции</a></li>{% endif %}
                 <li><a class="scroll" href="#contacts">Контакты</a></li>
             </ul>
         </div>
