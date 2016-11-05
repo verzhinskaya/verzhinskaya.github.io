@@ -55,7 +55,7 @@ layout: default
                 <div class="col-sm-6 col-md-4">
                     <div class="icon-box">
 						{% if event.link %}
-						{% if event.external %}<a href="{{ event.link }}">
+						{% if event.external == 'yes' %}<a href="{{ event.link }}">
 						{% else %}<a href="{{ site.baseurl }}/{{ event.link }}">{% endif %}
 						{% endif %}
 						<img border="0" src="img/events/{{ event.img }}" alt="{{ event.title }}" class="event-img">
@@ -143,15 +143,24 @@ layout: default
 <!-- End Testimonials -->
 
 <!-- Start Deals -->
+{% if site.deal-name != '' %}
 <div id="deals" class="deals" style="background-image: url('{{ site.baseurl }}/img/patterns/60-lines.png');">
 	<div class="container-fluid">
 		<h2 class="section-title">Акции и предложения</h2>
 		
 		<div class="divider-inverted" style=""></div>
 		
-		<div class="deal"><a href="http://svadba-krym.verzhinskaya.ru/"><img src="img/deals/1.jpg" alt="Оригинальная свадьба в Крыму от 33 000 рублей" class="deal-img" border="0"></a></div>
+		<div class="deal">
+		{% if site.deal-link != '' %}
+			{% if site.deal-external == 'yes' %}<a href="{{ site.deal-link }}" target="_blank">
+			{% else %}<a href="{{ site.baseurl }}/{{ site.deal-link }}">{% endif %}
+		{% endif %}
+		<img src="img/deals/{{ site.deal-img }}" alt="{{ site.deal-name }}" class="deal-img" border="0">
+		{% if event.link %}</a>{% endif %}
+		</div>
 	</div>
 </div>
+{% endif %}
 <!-- End Deals -->
 
 <!-- Start Partners -->

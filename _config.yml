@@ -18,6 +18,12 @@ three-col2-txt: "Более <strong>100</strong><br>мероприятий в&nb
 three-col3-img: "heart-smiley.png"
 three-col3-txt: "Более <strong>1000<strong><br>благодарных<br>клиентов"
 
+# Настройки раздела "Акции и предложения"
+deal-name: "Оригинальная свадьба в Крыму от 33 000 рублей"
+deal-img: "1.jpg"
+deal-link: "http://svadba-krym.verzhinskaya.ru/"
+deal-external: "yes"
+
 # Настройки телефонов
 phone1: "<strong>+7 (978) 215-71-05</strong> (Крым)"
 phone2: "<strong>+7 (967) 741-00-51</strong> (Уфа)"
