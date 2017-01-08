@@ -48,3 +48,21 @@
 .navbar-default .navbar-toggle .icon-bar {
     background: $white;
 }
+
+.v-logo {
+	display: block;
+	@include breakpoint(small) {
+           width: 65%;
+        }
+	@include breakpoint(medium) {
+           width: 45%;
+        }
+	@include breakpoint(large) {
+           width: 35%;
+        }
+	
+	
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
