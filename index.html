@@ -57,7 +57,7 @@ layout: default
                 <div class="col-sm-6 col-md-4">
                     <div class="icon-box">
 						{% if event.link %}
-						{% if event.external == 'yes' %}<a href="{{ event.link }}">
+						{% if event.external == "yes" %}<a href="{{ event.link }}">
 						{% else %}<a href="{{ site.baseurl }}/{{ event.link }}">{% endif %}
 						{% endif %}
 						<img border="0" src="img/events/{{ event.img }}" alt="{{ event.title }}" class="event-img">
